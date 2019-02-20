@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang ="en-GB">
+
+<head>
+<meta charset="UTF-8">
+<title> Places of Interest </title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="placesInterest">
+
+<div id="header">
+	<br/>
+	<img src="Images/DMULogo.jpg" alt="DMULogo" id="DMULogo">
+	</div>
+	
+	<div id="ListofWebpages">
+	<nav class ="webpagesList">
+		<ul>
+			<li><a href="assign.html">Home</a></li>				
+			<li><a href="CourseInfo.html">Course Information</a></li>
+			<li><a href="AroundDMU.html">Around DMU</a></li>
+			<li><a href="Interests.html">My Interests & Knowledge</a></li>
+			<li><a href="PlacesofInterest.html">Places of Interest</a></li>
+			<li><a href="UpcomingEvents.html">Upcoming Events</a></li>
+			<li><a href="UsefulLinks.html">Useful Links</a></li>
+			<li><a href="EnquiryForm.html">Enquiry Form</a></li>
+			<li><a href="http://www.dmu.ac.uk">DMU Website</a></li>	
+		</ul>
+		</nav>
+		</div>
+		
+	<div id="Placestovisit">
+	<h1> Places of Interest in Leicester </h1>
+	<p> This page will show you the best places to eat out and things to do while you are living here in Leicester. There are so many places here which you should 
+	check out, so let's get started. </p>
+	</div>
+	
+	<div id="Highcross">
+	<h2> <em> Highcross Shopping Centre </em> </h2> 
+	<p> Highcross Shopping Centre offers a fantastic variety of shops and restuarants such as Debenhams, John Lewis and Stonebaked Pizza. Highcross is just 20 minutes 
+	from the motorway, and is easily accessible by bus and train. Be sure to check out the website for bus & train routes, opening times and any further information. 
+	<a href="http://www.highcrossleicester.com">Click here for the Highcross website</a></p>
+	</div>
+	
+	<div class="Slideshow" style="max-width:500px">
+	<img class="mySlides" src="Images/highcross1.jpg" alt="highcrossbuilding" style="width:100%">
+	<img class="mySlides" src="Images/highcross2.jpg" alt="highcrossinside" style="width:100%">
+	<img class="mySlides" src="Images/highcross3.jpg" alt="highcrossoutside"  style="width:100%">
+	<img class="mySlides" src="Images/highcross4.jpg" alt="pizza"  style="width:100%">
+	<img class="mySlides" src="Images/highcross5.jpg" alt="burrito"  style="width:100%">
+	</div>
+
+	<script>
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000);
+	}
+	</script>
+	
+	<div id="EatingOut">
+	<h2> <em> Best Places to Eat </em> </h2> 
+	<p> Feeling hungry? Wanna treat yourself? Be sure to check out these places to eat around Leicester. There's Pepe's on Market street which serves really tasty
+	peri-peri chicken to eat in or takeaway. If you fancy a nice juicy steak, Toro's on Highfield street is the one for you. Finally, the best place for fresh desserts
+	is Whippe Gelatio on Granby street. </p>
+	</div>
+	
+	<div id="EatingOutImages">
+	<table> <tr> <td>
+	<img src="Images/eating1.jpg" alt="Pepes" id="Pepes">
+	</td> <td>
+	<img src="Images/eating2.png" alt="Steak" id="Toros">
+	</td> <td>
+	<img src="Images/eating3.jpg" alt="Whippe" id="Gelato"> </td> </tr>
+	<tr> 
+	<td>Best peri-peri chicken!</td>
+	<td>Tender, juicy steaks with chips!</td>
+	<td>Fresh ice cream and desserts!</td>
+	<tr> <td>
+	<img src="Images/PepeLocation.png" alt="Pepes" id="PepeLocation">
+	</td> <td>
+	<img src="Images/ToroLocation.png" alt="Steak" id="ToroLocation">
+	</td> <td>
+	<img src="Images/GelatoLocation.png" alt="Whippe" id="GelatoLocation"> </td> </tr>
+	<tr> 
+	<td>Located on Market Street, next to Subway</td>
+	<td>Around the corner of Gotham Street</td>
+	<td>On Granby Street, near the Mercure Hotel</td>
+	</tr>
+	</table>
+	</div>
+	
+	<div id="ThingsToDo">
+	<h2> <em> Things To Do </em> </h2> 
+	<p> Leicester is an amazing city to explore with wonderful attractions. There are many things to do such as visiting galleries, museums and
+	watching theatre shows. I have listed a few places below, you should really check out. </p>
+	</div>
+	
+	<div id="ThingsToDoImages">
+	<table> <tr> <td>
+	<img src="Images/todo1.jpg" alt="Museum" id="todo1">
+	</td> <td>
+	<img src="Images/todo2.jpg" alt="Space" id="todo2">
+	</td> <td>
+	<img src="Images/todo3.jpg" alt="Cinema" id="todo3"> </td> </tr>
+	<tr> 
+	<td>Visit the New Walk Museum</td>
+	<td>Check out the National Space Centre</td>
+	<td>Watch a movie at the Deluxe Showcase Cinema</td>
+	<tr> <td>
+	<img src="Images/MuseumLocation.png" alt="Pepes" id="MuseumLocation">
+	</td> <td>
+	<img src="Images/SpaceLocation.png" alt="Steak" id="SpaceLocation">
+	</td> <td>
+	<img src="Images/ShowcaseLocation.png" alt="Whippe" id="ShowcaseLocation"> </td> </tr>
+	<tr> 
+	<td>Right next to New Walk park</td>
+	<td>On Exploration Drive, near Abbey Lane</td>
+	<td>Just outside of Highcross</td>
+	</tr>
+	</table>
+	</div>
+	
+	<div id="footer">
+	<p> <b> Created by: Yaseen Fulat, P15194471 </b> </p>
+	</div>
+
+</div>
+	
+</body>
+
+</html>

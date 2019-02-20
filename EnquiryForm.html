@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang ="en-GB">
+
+<head>
+<meta charset="UTF-8">
+<title> Help Form </title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<div id="EnquiryForm">
+
+	<div id="header">
+	<br/>
+	<img src="Images/DMULogo.jpg" alt="DMULogo" id="DMULogo">
+	</div>
+	
+	<br>
+
+	<div id="ListofWebpages">
+	<nav class ="webpagesList">
+		<ul>
+			<li><a href="assign.html">Home</a></li>				
+			<li><a href="CourseInfo.html">Course Information</a></li>
+			<li><a href="AroundDMU.html">Around DMU</a></li>
+			<li><a href="Interests.html">My Interests & Knowledge</a></li>
+			<li><a href="PlacesofInterest.html">Places of Interest</a></li>
+			<li><a href="UpcomingEvents.html">Upcoming Events</a></li>
+			<li><a href="UsefulLinks.html">Useful Links</a></li>
+			<li><a href="EnquiryForm.html">Enquiry Form</a></li>
+			<li><a href="http://www.dmu.ac.uk">DMU Website</a></li>
+		</ul>
+		</nav>
+		</div>
+		
+	<div id="Needanyhelp">
+	<h1> Need help or more information? </h1>
+	<p> If you are still not sure about anything, please fill out the form below and I will get back to you as soon as possible. </p> 
+	</div>
+	
+	<form name="enquiryForm" onsubmit="return dialogBox()" method="post">
+	Name:
+	<br>
+	<input type="text" size="20" name="name" required> <br>
+	<br>
+	Email Address:
+	<br>
+	<input type="email" size="30" name="email" required> <br>
+	<br>
+	Type of Query:
+	<br>
+	<select> 
+		<option value="General">General Help</option>
+		<option value="Course Query">Course Query</option>
+		<option value="myDMU Help">myDMU Help</option>
+		<option value="Societies">Societies</option>
+		<option value="Student Union">Student Union</option>
+		<option value="Other">Other</option>
+	</select>
+	<br>
+	<br>
+	<input type="radio" name="copy" value="Copy of this query">Would you like to receive a copy of this query sent to your email? 
+	<br>
+	<br>
+	<div id="YourMessage">
+	Your Message:
+	<br>
+	<br>
+	</div>
+	<textarea name="message" rows="10" cols="30" required></textarea>
+	<br>
+	<br>
+	<script>
+		function dialogBox(){
+		alert("Your message has been sent, thank you.");
+	}
+	</script>
+	<input type="submit" value="Submit">
+	<input type="reset" value="Clear">
+	</form>
+	<br>
+	<form method="get" action="assign.html">
+	<button type="submit">Return to Main Menu</button>
+	</form>
+	
+	<div id="footer">
+	<p> <b> Created by: Yaseen Fulat, P15194471 </b> <p>
+	</div>
+	
+</div>	
+
+</body>
+
+</html>

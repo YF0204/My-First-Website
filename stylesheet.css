@@ -1,0 +1,367 @@
+body {
+	width: 100%;
+	min-width: 900px;
+	max-width: 1050px;
+	font-family: Verdana, Arial, Calibri;
+	font-weight: normal;
+	font-size: 16px;
+	margin: 0px auto;
+}
+
+#mainContainer {
+	width: 100%;
+	background-image: url(Images/background.jpg);
+}
+
+#courseInfo {
+	width: 100%;
+	background-image: url(Images/background.jpg);
+}
+
+#AboutMe {
+	width: 100%;
+	background-image: url(Images/background.jpg);
+}
+
+#EnquiryForm {
+	width: 100%;
+	background-image: url(Images/background.jpg);
+}
+
+#upcomingEvents {
+	width: 100%;
+	background-image: url(Images/background.jpg);
+}
+
+#usefulLinks{
+	width: 100%;
+	background-image: url(Images/background.jpg);
+}
+
+#placesInterest{
+	width: 100%;
+	background-image: url(Images/background.jpg);
+}
+
+#AroundDMU {
+	width: 100%;
+	background-image: url(Images/background.jpg);
+}
+
+#dmuOpenDay {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+iframe {
+	width: 500px;
+	height: 300px;
+	border: 3px solid black;
+}
+
+table, tr, td {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+textarea {
+	margin-left: auto;
+}
+
+#HighcrossPic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	border: 3px solid black;
+}
+
+#DMUBuildingImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	border: 2px solid black;
+}
+
+#HelpImage {
+	display: block;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid black;
+}
+
+#EnhancementImage {
+	display: block;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid black;
+}
+
+#DMULogo {
+	display: block;
+	height: 170px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid black;
+}
+
+#VisualStudio {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 200px;
+	border: 3px solid black;
+}
+
+#Football {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	border: 3px solid black;
+}
+
+#Airplane {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	border: 3px solid black;
+}
+
+#Destiny {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	border: 3px solid black;
+}
+
+#HTML {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 220px;
+	border: 3px solid black;
+}
+
+#Exam {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 220px;
+	border: 3px solid black;
+}
+
+#Neuschwanstein {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 220px;
+	border: 3px solid black;
+}
+
+#Revision {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 220px;
+	border: 3px solid black;
+}
+
+#Tech {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 220px;
+	border: 3px solid black;
+}
+
+#Pepes {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	border: 3px solid black;
+}
+
+#Toros {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	border: 3px solid black;
+}
+
+#Gelato {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	border: 3px solid black;
+}
+
+#PepeLocation {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	border: 3px solid black;
+}
+
+#ToroLocation {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	border: 3px solid black;
+}
+
+#GelatoLocation {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	border: 3px solid black;
+}
+
+#todo1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	border: 3px solid black;
+}
+
+#todo2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	border: 3px solid black;
+}
+
+#todo3 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	border: 3px solid black;
+}
+
+#MuseumLocation {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	border: 3px solid black;
+}
+
+#SpaceLocation {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	border: 3px solid black;
+}
+
+#ShowcaseLocation {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+	border: 3px solid black;
+}
+
+#Kimberlin {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 310px;
+	border: 3px solid black;
+}
+
+#HouseGateway {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 380px;
+	border: 3px solid black;
+}
+
+#BuildingQueens {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 320px;
+	border: 3px solid black;
+}
+
+#DMUCampus{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	border: 3px solid black;
+}
+
+div.Slideshow{
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid black;
+}
+
+nav.webpagesList {
+	text-align: center;
+	padding-right: 0.5cm
+}
+
+nav.webpagesList ul {
+	list-style: none;
+}
+
+nav.webpagesList li a {
+	text-decoration: none;
+	color: rgb(159, 197, 213);
+	font-size: 16px;
+}
+
+nav.webpagesList li {
+	display: inline-block;
+	border: 5px;
+	border-style: solid;
+	border-color: #ADD8E6;
+	padding: 10px;
+	background-color: rgb(70, 97, 130); 
+}
+
+nav.webpagesList a:hover {
+	color: white;
+}
+
+form {
+	padding-left: 0.2cm;
+}
+
+p {
+	padding-left: 0.2cm;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	padding-left: 0.2cm
+}
+
+#footer{
+	background-color: white;
+	color: black;
+	text-align: center;
+}
